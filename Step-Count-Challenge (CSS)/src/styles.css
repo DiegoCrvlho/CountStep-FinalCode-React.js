@@ -1,0 +1,51 @@
+body {
+  background-color: #023047;
+  color: white
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.step {
+  margin-top: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.count {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.count input {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+}
+
+.btnReset {
+  padding: 0.6rem;
+  background-color: #2a9d8f;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.btnCountStep {
+  height: 2rem;
+  width: 2rem;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1rem;
+  background-color: #2a9d8f;
+}
+
+
